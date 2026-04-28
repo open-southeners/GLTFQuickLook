@@ -413,7 +413,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = App/GLTFQuickLook.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6ZKL3ZKFLP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -459,7 +459,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = PreviewExtension/GLTFQuickLookExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6ZKL3ZKFLP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -509,7 +509,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = ThumbnailExtension/GLTFQuickLookThumbnail.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6ZKL3ZKFLP;
 				ENABLE_HARDENED_RUNTIME = YES;
