@@ -14,7 +14,26 @@ A modernized rewrite of [magicien/GLTFQuickLook](https://github.com/magicien/GLT
 
 ## Install
 
-1. Download the latest **`GLTFQuickLook.dmg`** from the [Releases page](https://github.com/d8vjork/GLTFQuickLook/releases/latest).
+### Homebrew
+
+Install from the Open Southeners tap:
+
+```sh
+brew install --cask open-southeners/tap/gltfquicklook
+```
+
+Or add the tap first:
+
+```sh
+brew tap open-southeners/tap
+brew install --cask gltfquicklook
+```
+
+After installation, launch **GLTFQuickLook** once. macOS registers the embedded Quick Look extensions on first launch; after that you can quit the app, it does not need to keep running.
+
+### Manual
+
+1. Download the latest **`GLTFQuickLook.dmg`** from the [Open Southeners releases page](https://github.com/open-southeners/GLTFQuickLook/releases/latest).
 2. Open the DMG and drag **GLTFQuickLook.app** into the **Applications** folder.
 3. Launch **GLTFQuickLook** once. macOS registers the embedded Quick Look extensions on first launch — after that you can quit the app, it does not need to keep running.
 4. In Finder, select a `.glb` or `.gltf` file and press **Space**. You should see an interactive 3D preview (drag to orbit, scroll to zoom).
@@ -29,14 +48,20 @@ The release build is signed with a Developer ID and notarized by Apple, so Gatek
 
 ### Uninstall
 
-Drag `GLTFQuickLook.app` from `/Applications` to the Trash, then run `qlmanage -r`.
+If installed with Homebrew:
+
+```sh
+brew uninstall --cask gltfquicklook
+```
+
+If installed manually, drag `GLTFQuickLook.app` from `/Applications` to the Trash, then run `qlmanage -r`.
 
 ## Build from source
 
 Requirements: Xcode 15 or later.
 
 ```sh
-git clone https://github.com/d8vjork/GLTFQuickLook.git
+git clone https://github.com/open-southeners/GLTFQuickLook.git
 cd GLTFQuickLook
 make install
 ```

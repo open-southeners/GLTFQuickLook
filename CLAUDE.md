@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a **fork of [magicien/GLTFQuickLook](https://github.com/magicien/GLTFQuickLook)** modernized for macOS 26. The upstream was a `.qlgenerator` CFPlugin (deprecated). This fork is a **regular `.app` that ships two App Extensions** — Apple's current way of providing Quick Look previews and thumbnails.
 
-`README.md` is inherited from upstream and describes the old Carthage / `.qlgenerator` workflow. **Ignore it for build/install instructions** — it does not match this fork.
+`README.md` contains the current user-facing install instructions: manual DMG download from GitHub releases or Homebrew installation via `open-southeners/tap`. Use the Makefile targets below for local development builds.
 
 ## Project layout
 
